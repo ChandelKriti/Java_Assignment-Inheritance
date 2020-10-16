@@ -17,6 +17,7 @@ private int days;
 		this.days = days;
 	}
 	
+	@Override
 	public int getOrderValue() {
 		return getFees() * getDays();
 	}

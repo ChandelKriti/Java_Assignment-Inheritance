@@ -17,6 +17,7 @@ public class PublicTraining extends Training {
 		this.participants = participants;
 	}
 	
+	@Override
 	public int getOrderValue() {
 		return( getFees() * getParticipants());
 	}

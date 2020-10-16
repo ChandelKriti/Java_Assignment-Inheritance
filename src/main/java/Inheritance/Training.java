@@ -1,10 +1,12 @@
 package Inheritance;
 
-public class Training {
+public abstract class Training {
 
 	private  int id;
 	private  String subject;
 	private  int fees;
+	
+	public abstract int getOrderValue();
 	
 	public Training(int id, String subject, int fees) {
 		super();
